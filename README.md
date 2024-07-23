@@ -4,6 +4,8 @@ This is just a demo repository to showcase an issue I found while testing a feat
 
 The issue seems to be affecting the selection of a `quickpick`.
 
+Check out the [issue in the VS Code repository](https://github.com/microsoft/vscode/issues/223363)
+
 ## How to reproduce it
 
 Tested in:
