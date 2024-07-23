@@ -10,7 +10,7 @@ function quickPickTest() {
 	const quickPick = vscode.window.createQuickPick();
 	quickPick.canSelectMany = true;
 	quickPick.placeholder = 'Select items';
-  
+	
 	quickPick.items = items;
 	quickPick.activeItems= selectedItems;
 	quickPick.selectedItems = selectedItems;
