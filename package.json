@@ -42,6 +42,13 @@
           "when": "view === quickpick.tester.view",
           "group": "navigation"
         }
+      ],
+      "view/item/context": [
+        {
+          "command": "quickpick-insiders-issue.quickPickTest",
+          "when": "view === quickpick.tester.view",
+          "group": "inline"
+        }
       ]
     }
   },
