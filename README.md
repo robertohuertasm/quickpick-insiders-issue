@@ -18,6 +18,20 @@ Node.js: 20.14.0
 V8: 12.4.254.20-electron.0
 OS: Darwin arm64 23.5.0
 
+---
+
+Version: 1.92.0-insider (user setup)
+Commit: 22e3447b4b410dcf8426bf70743c5dd4030d6122
+Date: 2024-07-23T05:03:52.385Z
+Electron: 30.2.0
+ElectronBuildId: 9884022
+Chromium: 124.0.6367.243
+Node.js: 20.15.0
+V8: 12.4.254.20-electron.0
+OS: Windows_NT x64 10.0.22631
+
+---
+
 ### Steps
 
 1. Debug the extension
