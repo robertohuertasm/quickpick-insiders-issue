@@ -30,7 +30,7 @@ Node.js: 20.15.0
 V8: 12.4.254.20-electron.0
 OS: Windows_NT x64 10.0.22631
 
----
+**(Both with WSL2 and directly with Windows)**
 
 ### Steps
 
