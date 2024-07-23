@@ -43,3 +43,8 @@ OS: Windows_NT x64 10.0.22631
 ## See it in action
 
 <video src="https://github.com/robertohuertasm/quickpick-insiders-issue/raw/master/qp_issue.mp4" controls muted loop autoplay title="QuickPick issue"></video>
+
+https://github.com/user-attachments/assets/3ed020f2-7400-44bd-b518-64f47fedd4b0
+
+
+
