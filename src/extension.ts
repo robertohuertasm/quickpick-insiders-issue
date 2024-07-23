@@ -2,7 +2,7 @@
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
 
-const quickPick = async (): Promise<void> => { 
+function quickPick() { 
 	const items = ['hola', 'adios', 'ciao', 'hello', 'bye', 'hi'].map((label) => ({ label }));
 	const selectedItems = [items[0], items[1]];
 	const quickPick = vscode.window.createQuickPick();
@@ -56,7 +56,7 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showInformationMessage('Hello World from Quickpick Insiders Issue!');
 	});
 
-	const quickPickCommand = vscode.commands.registerCommand('quickpick-insiders-issue.quickPickTest', async () => { 
+	const quickPickCommand = vscode.commands.registerCommand('quickpick-insiders-issue.quickPickTest', () => { 
 		quickPick();
 	});
 
