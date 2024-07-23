@@ -28,4 +28,4 @@ OS: Darwin arm64 23.5.0
 
 ## See it in action
 
-<video src="qp_issue.mp4" controls muted loop autoplay title="QuickPick issue"></video>
+<video src="https://github.com/robertohuertasm/quickpick-insiders-issue/raw/master/qp_issue.mp4" controls muted loop autoplay title="QuickPick issue"></video>
