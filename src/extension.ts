@@ -2,17 +2,17 @@
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
 
-function quickPick() { 
-	const items = ['hola', 'adios', 'ciao', 'hello', 'bye', 'hi'].map((label) => ({ label }));
+function quickPickTest() { 
+	const items = [...Array(100)].map((_, i) => ({ label: `Item ${i}` }));
 	const selectedItems = [items[0], items[1]];
+
+	
 	const quickPick = vscode.window.createQuickPick();
 	quickPick.canSelectMany = true;
 	quickPick.placeholder = 'Select items';
-	
-	quickPick.matchOnDescription = true;
-	quickPick.matchOnDetail = true;
   
 	quickPick.items = items;
+	quickPick.activeItems= selectedItems;
 	quickPick.selectedItems = selectedItems;
 	quickPick.show();
   
@@ -57,7 +57,7 @@ export function activate(context: vscode.ExtensionContext) {
 	});
 
 	const quickPickCommand = vscode.commands.registerCommand('quickpick-insiders-issue.quickPickTest', () => { 
-		quickPick();
+		quickPickTest();
 	});
 
 	context.subscriptions.push(disposable, quickPickCommand);
